@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Calculadora IMC</h1>
+        </header>
+
+        <div class="input-box">
+
+            <div class="icons">
+                <!-- <i class="fa-solid fa-user"></i> -->
+                <input type="name" placeholder="Nome" id="name">
+            </div>
+
+            <div class="icons height">
+                <!-- <i class="fa-solid fa-ruler-vertical"></i> -->
+                <input type="number" placeholder="Altura" id="height">
+            </div>
+
+            <div class="icons">
+                <!-- <i class="fa-solid fa-weight-scale"></i> -->
+                <input type="number" placeholder="Peso" id="weight">
+            </div>
+
+            <button id="btn">Calcular IMC</button>
+        </div>
+
+        <div id="result" class="box-result"></div>
+
+    </div><!--final-container-->
+
+    <script src="script/script.js"></script>
+</body>
+</html>
